@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Persamaan Linear 3 Variabel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sistem Persamaan Linear 3 Variabel</h2>
+        <form id="linear-form">
+            <div class="equation">
+                <h4>Persamaan 1</h4>
+                <input type="number" id="x1" placeholder="Koefisien x1">
+                <input type="number" id="y1" placeholder="Koefisien y1">
+                <input type="number" id="z1" placeholder="Koefisien z1">
+                <input type="number" id="c1" placeholder="Konstanta c1">
+            </div>
+            <div class="equation">
+                <h4>Persamaan 2</h4>
+                <input type="number" id="x2" placeholder="Koefisien x2">
+                <input type="number" id="y2" placeholder="Koefisien y2">
+                <input type="number" id="z2" placeholder="Koefisien z2">
+                <input type="number" id="c2" placeholder="Konstanta c2">
+            </div>
+            <div class="equation">
+                <h4>Persamaan 3</h4>
+                <input type="number" id="x3" placeholder="Koefisien x3">
+                <input type="number" id="y3" placeholder="Koefisien y3">
+                <input type="number" id="z3" placeholder="Koefisien z3">
+                <input type="number" id="c3" placeholder="Konstanta c3">
+            </div>
+            <button type="button" onclick="solveSystem()">Hitung Solusi</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
